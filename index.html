@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Our Funky HTML Page</title>
+        <title>Alex's Website</title>
         <meta name="description" content="Our first page">
+        <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
-        <h1>Welcome to my HTML page!</h1>
-        <p>Hello! My Name is Alex Yeh. I am a second year Computer Science major at the University of California, Santa Cruz. I enjoy watching football and basketball, hanging out with friends, and going to the gym.</p>
-        <a href = "https://github.com/alexyehhh"><img src="github_logo.png" alt="GitHub Link" height="100" width="100"></a>
-        <h2>Projects</h2>
+        <h1 class = 'mainheader'>Welcome to my website!</h1>
+        <img src="me.jpeg" alt="Me" height="325" width="265">
+        <p id = 'introparagraph'>Hello! My Name is Alex Yeh. I am a second year Computer Science major at the University of California, Santa Cruz. I enjoy watching football and basketball, hanging out with friends, and going to the gym.</p>
+        <h2 class = 'socialsheader'>Socials</h2>
+        <!-- <a href = "https://github.com/alexyehhh"><img src="github_logo.png" alt="GitHub Link" height="100" width="100"></a>
+        <a href = "https://www.linkedin.com/in/alex-yeh-2279a4272"><img src="linkedin.png" alt = "LinkedIn Link" height="100" width="100"></a>
+        <a href = "https://www.instagram.com/alexyehhh/"><img src="instagram.png" alt = "Instagram Link" height="100" width="100"></a> -->
+        <div class="socials-container">
+            <a href="https://github.com/alexyehhh"><img src="github_logo.png" alt="GitHub Link" height="100" width="100" id = 'social-logo'></a>
+            <a href="https://www.linkedin.com/in/alex-yeh-2279a4272"><img src="linkedin.png" alt="LinkedIn Link" height="100" width="100" id = 'social-logo'></a>
+            <a href="https://www.instagram.com/alexyehhh/"><img src="instagram.png" alt="Instagram Link" height="100" width="100" id = 'social-logo'></a>
+        </div>
+          
+        <h3 class = 'projectheader'>Projects</h3>
         <dl>
             <dt><a href = "https://github.com/alexyehhh">Weather</a></dt>
-            <dd>Tells you the weather! Made using HTML, CSS, and JavaScript!</dd>
+            <dd class = 'projectdescriptions'>Tells you the weather! Made using HTML, CSS, and JavaScript!?</dd>
         </dl>
     </body>
 </html>

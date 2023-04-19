@@ -1,0 +1,71 @@
+/* Classes */
+
+/* Maybe change font later */
+.mainheader {
+    color: #000000;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+.socialsheader {
+    color: blue;
+    text-align: center;
+    font-family: American typewriter, sans-serif;
+    padding: 5px;
+}
+
+.projectheader {
+    color: red;
+    text-align: left;
+    font-family: American typewriter, sans-serif;
+    padding: 5px;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+  
+  
+
+.projectdescriptions {
+    color: #000000;
+    /*text-align: center;*/
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+/* Elements */
+
+html {
+    background: #FFFFFF;
+    background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #2FA9CB 52%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #2FA9CB 52%, #FFFFFF 100%);
+    background: linear-gradient(135deg, #FFFFFF 0%, #2FA9CB 52%, #FFFFFF 100%);
+}
+
+p {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+a {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/* ID */
+#introparagraph {
+    text-align: center;
+}
+
+#social-logo:hover {
+    opacity: 0.8;
+}
