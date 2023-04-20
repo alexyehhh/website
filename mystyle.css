@@ -27,33 +27,37 @@
     justify-content: center;
 }
 
-
-  
-  
-
 .projectdescriptions {
     color: #000000;
     /*text-align: center;*/
     font-family: 'Trebuchet MS', sans-serif;
     padding: 5px;
+    text-align: left;
 }
 
-/* Elements */
 
-html {
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+} 
+
+body {
+    min-height: 100%;
     background: #FFFFFF;
     background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #2FA9CB 52%, #FFFFFF 100%);
     background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #2FA9CB 52%, #FFFFFF 100%);
     background: linear-gradient(135deg, #FFFFFF 0%, #2FA9CB 52%, #FFFFFF 100%);
 }
 
-p {
-    font-family: "Trebuchet MS", sans-serif;
+html {
+    height: 100%;
 }
 
-img {
-    float: left;
-    margin-right: 10px;
+p {
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 a {
@@ -66,6 +70,6 @@ a {
     text-align: center;
 }
 
-#social-logo:hover {
+.social-logo:hover {
     opacity: 0.8;
 }
