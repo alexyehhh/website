@@ -66,11 +66,15 @@ a {
     text-align: center;
 }
 
-/* ID */
 #introparagraph {
     text-align: center;
 }
 
 .social-logo:hover {
     opacity: 0.8;
+}
+
+.social-logo {
+    align-items: center;
+    margin-right: 10px;
 }
