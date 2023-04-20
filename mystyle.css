@@ -13,6 +13,7 @@
     text-align: center;
     font-family: American typewriter, sans-serif;
     padding: 5px;
+    font-size: 23px;
 }
 
 .projectheader {
@@ -20,6 +21,7 @@
     text-align: left;
     font-family: American typewriter, sans-serif;
     padding: 5px;
+    font-size: 20px;
 }
 
 .socials-container {
@@ -29,7 +31,6 @@
 
 .projectdescriptions {
     color: #000000;
-    /*text-align: center;*/
     font-family: 'Trebuchet MS', sans-serif;
     padding: 5px;
     text-align: left;
