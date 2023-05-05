@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.send('Hello World! Welcome to Node.js');
 })
 
-// GET functiont that returns the number of visits for this node session
+// GET function that returns the number of visits for this node session
 app.get('/visits', (req, res) => { // at the /visits route
 	counter += 1; // Increase our counter variable by 1
       // Text formatting from ‘text formatting’ JavaScript prelab section
